@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+    min-height: 100vh;
+    border: 10px solid #7fe0db;
+    color: white;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top_section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.top_section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #7fe0db;
+    text-transform: uppercase;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+}
+
+.top_section h4 {
+    font-size: 30px;
+    text-align: end;
+}
+
+.image_container {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image_container,
+img {
+    width: 200px;
+    height: 220px;
+}
+
+.about_section {
+    margin-top: 50px;
+}
+
+.about_section h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.about_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+
+.Legacy_section {
+    margin: 50px 0;
+}
+
+.Legacy_section h2 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.Legacy_section h3 {
+    margin: 15px 0px 15px 0px;
+    font-size: 20px;
+}
+
+.Legacy_section ul {
+    margin-left: 50px;
+}
+
+.Legacy_section li {
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+footer p {
+    text-align: end;
+}
+
+a {
+    color: #860afa;
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        background-color: black;
+        color: white;
+        display: block;
+        margin: auto;
+        overflow: hidden;
+    }
+    .content {
+        min-height: 100vh;
+    }
+    .top_section {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image_container,
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: 120px;
+        border-radius: 50%;
+    }
+    .top_section h1 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #7fe0db;
+        text-transform: uppercase;
+        margin: 0px 0px 0px 20px;
+    }
+    .about_section h2 {
+        font-size: 40px;
+        font-weight: 400;
+        /* margin-left: 2rem; */
+        text-align: center;
+        margin-top: -40px;
+    }
+    .Legacy_section h2 {
+        font-size: 40px;
+        font-weight: 400;
+        /* margin-left: 2rem; */
+        text-align: center;
+    }
+    .about_section p {
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 1.2px;
+        text-align: justify;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .Legacy_section h3 {
+        margin: 14px 14px 16px 14px;
+        font-size: 15px;
+    }
+    .Legacy_section ul {
+        margin: 13px 13px 0px 13px;
+        /* width: 100vw; */
+        height: 100vh;
+    }
+    .Legacy_section li {
+        /* margin-bottom: 15px; */
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        text-align: justify;
+    }
+    footer {
+        margin: 0px;
+        height: 40vh;
+    }
+    footer p {
+        text-align: center;
+        margin-top: -14rem;
+    }
+}
