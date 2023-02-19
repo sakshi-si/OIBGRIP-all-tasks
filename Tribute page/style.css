@@ -146,7 +146,6 @@ a {
     .Legacy_section h2 {
         font-size: 40px;
         font-weight: 400;
-        /* margin-left: 2rem; */
         text-align: center;
     }
     .about_section p {
@@ -163,11 +162,9 @@ a {
     }
     .Legacy_section ul {
         margin: 13px 13px 0px 13px;
-        /* width: 100vw; */
         height: 100vh;
     }
     .Legacy_section li {
-        /* margin-bottom: 15px; */
         font-size: 15px;
         line-height: 20px;
         letter-spacing: 1px;
